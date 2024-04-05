@@ -1,6 +1,6 @@
-let N = parseInt(prompt("Inserisci un numero da 1 a 100"));
+let N = parseInt(prompt("Inserisci un numero"));
 
-while (isNaN(N) || N < 1 || N > 100) {
+while (isNaN(N) || N < 1) {
     N = parseInt(prompt("Input non valido."));
 }
 
@@ -15,3 +15,4 @@ for (let i = 0; i < N; i++) {
     } console.log(arrayRandom);
 }
 
+2
