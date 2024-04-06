@@ -6,13 +6,14 @@ while (isNaN(N) || N < 1) {
 
 console.log(N);
 
-
-
 for (let i = 0; i < N; i++) {
-    let arrayRandom = [];
+    let arrayRandom = []; // Sposta l'inizializzazione dell'array qui dentro
     for (let j = 0; j < 10; j++) {
-       
         arrayRandom.push(numRandom());
-    } console.log(arrayRandom);
+    }
+    console.log(arrayRandom);
 }
 
+function numRandom() {
+    return Math.floor(Math.random() * 100) + 1;
+}
