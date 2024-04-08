@@ -7,5 +7,5 @@
  */
 function rimuoviUltimoElem(array) {
     const nuovoArray = array.slice(0, array.length -1);
-    return = nuovoArray;
-}S
+    return nuovoArray;
+}
